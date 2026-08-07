@@ -1,0 +1,11 @@
+object,shape,color,material,size
+coin,circular,silver,metal,small
+book,rectangular,blue,paper,medium
+block,square,red,wood,small
+bottle,cylindrical,green,plastic,medium
+marble,circular,blue,glass,small
+box,rectangular,brown,cardboard,large
+button,circular,black,plastic,small
+scarf,rectangular,yellow,fabric,medium
+key,irregular,silver,metal,small
+cup,cylindrical,red,plastic,medium

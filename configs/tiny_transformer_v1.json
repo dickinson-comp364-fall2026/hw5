@@ -1,0 +1,31 @@
+{
+  "experiment_name": "tiny_transformer_v1",
+  "seed": 1234,
+  "tokenizer_type": "simple_words",
+  "device": "auto",
+  "model": {
+    "block_size": 32,
+    "n_layers": 2,
+    "n_heads": 2,
+    "n_embd": 64,
+    "mlp_multiplier": 4
+  },
+  "training": {
+    "batch_size": 16,
+    "train_steps": 300,
+    "eval_interval": 50,
+    "learning_rate": 0.0003
+  },
+  "generation": {
+    "prompt_length": 1,
+    "prompt_text": null,
+    "max_new_tokens": 50
+  },
+  "output": {
+    "create_run_dir": true,
+    "save_model": true,
+    "model_file_name": "model.pt",
+    "save_generated_text": true,
+    "save_loss_history": true
+  }
+}
